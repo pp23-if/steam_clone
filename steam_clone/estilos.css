@@ -121,7 +121,7 @@
   footer
   {
     background-color: #23232e;
-    padding: 10px;
+    padding: 50px;
     
   }
 
@@ -141,7 +141,7 @@
 
   .footer-col
   {
-    width: 25%;
+    width: 40%;
     padding: 0 15px;
 
   }
@@ -229,55 +229,56 @@
   /* Aqui TERMINA o bloco de códigos do RODAPÉ(footer)*/
 
 spam{
-  color: red;
+  color:#313192;
+  font-size: clamp(1.75em, 1em+3vw, 2.5em);
 }
 
-form{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+p{
+  font-size: clamp(1em, 1em+1vw, 1.25em);
 }
 
-input.inp{
-    width: 60vw;
-    max-width: 450px;
-    outline: none;
-    padding: 5px 30px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #c4c4c4;
-    transition: 200ms ease all;
+
+section
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
 }
 
-input.inp:focus{
-    border: 2px solid #696969;
+form
+{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-textarea.txt{
-    width: 60vw;
-    max-width: 450px;
-    height: 210px;
-    outline: none;
-    padding: 5px 30px;
-    font-size: 20px;
-    margin-bottom: 10px;
-    border: 2px solid #c4c4c4;
+input.inp
+{
+  width: 60vw;
+  max-width: 450px;
+  padding: 5px 30px;
+  font-size: 15px;
+  margin: 0 0 10px 0;
+  border: 3px solid #23232e;
 }
 
-textarea.txt:focus{
-  border: 2px solid #696969;
-  transition: 200ms ease all;
+input.inpsubmit
+{
+  font-size: 20px;
+  background-color: #23232e;
+  color: #fff;
+  cursor: pointer;
+  
 }
 
-input.inpSubmit{
-    font-size: 20px;
-    background-color: blue;
-    padding: 10px 50px;
-    cursor: pointer;
-    transition: 350ms ease;
+input.inpsubmit:hover
+{
+  background-color: #2b2bc2;
 }
-input.inpSubmit:hover{
-    background-color: cyan;
-}
+
+  
+
