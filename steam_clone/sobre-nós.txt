@@ -1,0 +1,22 @@
+                   
+
+           "mentes por tras"
+
+   esse site é fruto de uma parceria entre Pedro Augusto vieira e 
+   Lucas Rocha. Ambos de estudantes do curso de análise e desenvolvimento de
+   sistemas,(ADS).
+
+
+          "conceito da idéia" 
+   
+   buscavam por um conceito de site para se inspirarem em seu projeto pessoal
+   de aplicação web, como ambos são ávidos fãs de video games, decidiram se
+   basear no site de jogos chamado steam. nascendo assim o "steam-clone".
+
+
+          "considerações finais"
+
+   por fim, gostariamos de salientar, que buscamos sempre nos desafiar,
+   essa aplicação de forma simples e resumida, busca ao máximo refletir
+   isso, no futuro, pretendemos sim, melhorar e refinar o projeto. desde
+   já agradecemos pela sua atenção e suporte.
