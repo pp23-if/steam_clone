@@ -5,11 +5,16 @@
    
   }
   
-  a {
+  a{
     color: #fff;
     text-decoration: none;
     transition: 0.3s;
   }
+
+  /*body
+  {
+    background-color: lightgrey;
+  }*/
   
   a:hover {
     opacity: 0.7;
@@ -228,17 +233,19 @@
 
   /* Aqui TERMINA o bloco de códigos do RODAPÉ(footer)*/
 
+  /*começo estilizaçao titulo do paragrafo*/
+
 spam{
   color:#313192;
   font-size: clamp(1.75em, 1em+3vw, 2.5em);
 }
 
-p{
-  font-size: clamp(1em, 1em+1vw, 1.25em);
-}
+/*fim estilização titulo do paragrafo*/
 
 
-section
+
+/* Aqui COMEÇA o bloco de códigos do FORMULÁRIO(form)*/
+x
 {
   width: 100%;
   display: flex;
@@ -280,5 +287,41 @@ input.inpsubmit:hover
   background-color: #2b2bc2;
 }
 
-  
+ /* Aqui TERMINA o bloco de códigos do FORMULÁRIO(form)*/ 
 
+
+
+
+
+ /* Aqui COMEÇA o bloco de códigos do CARD*/
+
+ .pacotes
+ {
+   /*background-color: purple;*/
+   /*height: 500px;*/
+   display: flex;
+ }
+
+ .pacotes .card
+ {
+    width: 251px;
+    height: 228px;
+    background:#23232e;
+    border-radius: 10px 10px 10px 10px;
+    margin: 25px auto;
+ }
+
+ .pacotes .card-image
+ {
+   width: 250px;
+   height: 200px;
+   
+ }
+
+ .card-content
+ {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 1rem;
+   color: #fff;
+  
+ }
