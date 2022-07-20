@@ -1,30 +1,28 @@
+let ti = 2000,
+    ci = 0,
+    ima = document
+                .querySelectorAll("#slider1 img")
+    max = ima.length;
 
+function nextImaged() {
 
- let time = 2000,
-    currentImageIndex = 0,
-    images = document
-                .querySelectorAll("#slider img")
-    max = images.length;
+    ima[ci]
+        .classList.remove("selected1")
 
-function nextImage() {
+    ci++
 
-    images[currentImageIndex]
-        .classList.remove("selected")
+    if(ci >= max)
+        ci = 0
 
-    currentImageIndex++
-
-    if(currentImageIndex >= max)
-        currentImageIndex = 0
-
-    images[currentImageIndex]
-        .classList.add("selected")
+    ima[ci]
+        .classList.add("selected1")
 }
 
 function start() {
     setInterval(() => {
         // troca de image
-        nextImage()
-    }, time)
+        nextImaged()
+    }, ti)
 }
 
 window.addEventListener("load", start)

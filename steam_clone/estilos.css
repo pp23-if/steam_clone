@@ -361,3 +361,134 @@ input.inpsubmit:hover
 
 
 
+
+#slider1
+{
+  width: 500px;
+  height: 25vw;
+  max-height: 150px;
+  position: relative;
+}
+
+#slider1 img
+{
+  opacity: 0;
+  position:absolute;
+  width: 250px;
+  height: 200px;
+  transition: 1000ms;
+ 
+}
+
+#slider1 img.selected1
+{
+  opacity: 1;
+}
+
+
+
+
+
+#slider2
+{
+  width: 500px;
+  height: 25vw;
+  max-height: 150px;
+  position: relative;
+}
+
+#slider2 img
+{
+  opacity: 0;
+  position:absolute;
+  width: 250px;
+  height: 200px;
+  transition: 1000ms;
+ 
+}
+
+#slider2 img.selected2
+{
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+#slider3
+{
+  width: 500px;
+  height: 25vw;
+  max-height: 150px;
+  position: relative;
+}
+
+#slider3 img
+{
+  opacity: 0;
+  position:absolute;
+  width: 250px;
+  height: 200px;
+  transition: 1000ms;
+ 
+}
+
+#slider3 img.selected3
+{
+  opacity: 1;
+}
+
+
+
+
+#slider4
+{
+  width: 500px;
+  height: 25vw;
+  max-height: 150px;
+  position: relative;
+}
+
+#slider4 img
+{
+  opacity: 0;
+  position:absolute;
+  width: 250px;
+  height: 200px;
+  transition: 1000ms;
+ 
+}
+
+#slider4 img.selected4
+{
+  opacity: 1;
+}
+
+
+
+#slider5
+{
+  width: 500px;
+  height: 25vw;
+  max-height: 150px;
+  position: relative;
+}
+
+#slider5 img
+{
+  opacity: 0;
+  position:absolute;
+  width: 250px;
+  height: 200px;
+  transition: 1000ms;
+ 
+}
+
+#slider5 img.selected5
+{
+  opacity: 1;
+}
