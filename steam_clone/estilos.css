@@ -86,6 +86,7 @@
     }
     .mobile-menu {
       display: block;
+      margin-bottom: auto;
     }
   }
   
@@ -494,4 +495,14 @@ input.inpsubmit:hover
 #slider5 img.selected5
 {
   opacity: 1;
+}
+
+.tg
+{
+  
+  font-size: 20px;
+  background-color: #23232e;
+  color: #fff;
+  cursor: pointer;
+
 }
