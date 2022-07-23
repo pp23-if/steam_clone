@@ -21,7 +21,7 @@
         </div>
         <ul class="nav-list">
           <li><a href="index.html"/target = "_self">home-page</a></li>
-          <li><a href="x_cadastro.html"/target = "_self">cadastro</a></li>
+          <li><a href="x_cadastro.php"/target = "_self">cadastro</a></li>
           <li><a href="sobre_nos.html"/target = "_self">sobre-nós</a></li>
         </ul>
       </nav>
